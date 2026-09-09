@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+</head>
+<body>
+    <header style="background-color: hwb(272 3% 8%);">
+        <br>
+        <h1 style="text-align: center;color: azure;">Tabelas</h1>
+        <br>
+    </header>
+    <main>
+        <h2>Tabela De Notas De Um Aluno</h2>
+          <!--Tabela-->
+
+        <table border="1" style="width: 100%;">
+            <!--THead -> cabeçalho da tabela-->
+            <thead style="background-color: blueviolet;color: azure;">
+                <!--tr table row linha do cabeçalho-->
+                <tr>
+                    <!--tr table row conteudo de cabeçalho-->
+                    <th>Diciplinas</th>
+                    <th>Nota1</th>
+                    <th>Nota2</th>
+                    <th>Nota3</th>
+                    <th>Nota4</th>
+                    <th>Média</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Criar a segunda linha da tabela -->
+                <tr>
+                    <td>Matemática</td>
+                    <td>9,0</td>
+                    <td>8,0</td>
+                    <td>8,0</td>
+                    <td>10,0</td>
+                    <td>8,5</td>
+                </tr>
+                <!--Criar a terceira linha da tabela-->
+                <tr>
+                    <td>Linguagem De Marcação</td>
+                    <td>4,0</td>
+                    <td>5,0</td>
+                    <td>3,0</td>
+                    <td>4,0</td>
+                    <td>4,0</td>
+                </tr>
+                <!--Criar a quarta linha da tabela-->
+                <tr>
+                    <td>Banco De Dados</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                    <td>10,0</td>
+                    <td>9,25</td>
+                <!--Criar a quinta linha da tabela-->
+                <tr>
+                    <td>Programação Back-End</td>
+                    <td>8,0</td>
+                    <td>8,0</td>
+                    <td>7,0</td>
+                    <td>7,0</td>
+                    <td>7,5</td>    
+                </tr>
+               <!--Criar a sexta linha da tabela-->
+               <tr>
+                    <td>Programação Mobile</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td>9,8</td>
+                    <td>9,8</td>
+                    <td>9,8</td> 
+               </tr>
+               <!--Criar a setima linha da tabela-->
+               <tr>
+                    <td>Programação Front-End</td>
+                    <!--<td></td>
+                    <td></td>-->
+                    <td>10,0</td>
+                    <td>10,0</td>
+                    <td>10,0</td> 
+               </tr>
+                <!--Criar a linha de media final-->
+                <tr>
+                    <th colspan="5">Média Final</th>
+                    <th>8,1</th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
